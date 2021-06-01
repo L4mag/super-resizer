@@ -6,7 +6,6 @@ import mts.teta.resizer.ResizerApp;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.util.Date;
 
 import net.coobird.thumbnailator.Thumbnails;
 

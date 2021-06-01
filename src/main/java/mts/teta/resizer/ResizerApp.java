@@ -19,10 +19,7 @@ public class ResizerApp extends ConsoleAttributes implements Callable<Integer> {
     @Override
     public Integer call() throws Exception {
         ImageProcessor imageProcessor = new ImageProcessor();
-
         imageProcessor.processImage(ImageIO.read(inputFile), this);
-
-        System.out.println("run");
         return 0;
     }
 }
